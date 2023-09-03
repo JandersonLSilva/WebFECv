@@ -1,0 +1,83 @@
+/*seletor do tipo elemento*/
+body {
+    background-color: rgb(194, 218, 214);
+}
+h1 {
+    background-color: rgb(8, 92, 92);
+    font-family: sans-serif;
+    color: rgb(89, 190, 160);
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline overline rgb(89, 190, 160);
+    width: 69%;
+    height:80%;
+    margin: 0 auto;
+    border-radius: 12px;
+    
+}
+h2 {
+    background-color: rgb(8, 92, 92);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(89, 190, 160);
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline overline rgb(89, 190, 160);
+    margin: 0 auto;
+    width:98%;
+    height:100%;
+    border-radius: 10px;
+}
+footer {
+    color: rgb(72, 168, 185);
+    text-align: center;
+}
+ol{
+    background-color: rgba(93, 192, 192, 0.432);
+    width:260px;
+    height: 90px;
+    border-radius: 10px;
+}
+dl {
+    background-color: rgba(93, 192, 192, 0.432);
+    width:300px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+/*seletor do tipo id*/
+#algncntr {
+    text-align: center;
+}
+#txtcolor {
+    color: rgb(58, 106, 145);
+    text-decoration: underline dashed;
+}
+#styleback{
+    background-color: rgba(93, 192, 192, 0.432);
+    width:260px;
+    height: 24px;
+    border-radius: 10px;
+}
+
+/*seletor do tipo fonte*/
+.fontstyle {
+    font-style: italic;
+    font-weight: bold;
+}
+.fontdeco {
+    text-decoration: underline;
+}
+
+/*seletor do tipo pseudo-classe*/
+a:hover {
+    color: rgb(252, 134, 0);
+}
+
+/*seletor do tipo atributo*/
+
+img[alt="Foto do Perfil"]{
+    border-radius: 10px;
+}
+img[alt="ODS 17"]{
+    border-radius: 10px;
+}
